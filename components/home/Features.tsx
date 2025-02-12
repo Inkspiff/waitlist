@@ -73,7 +73,7 @@ const Features = () => {
                     variant="h6"
                     sx={{
                       textAlign:
-                        index === 4 ? "right" : index === 0 ? "center" : "left",
+                        (index === 4 || index === 2) ? "right" : index === 0 ? "center" : "left",
                       mb: 1,
                     }}
                   >
@@ -82,7 +82,7 @@ const Features = () => {
                   <Typography
                     sx={{
                       textAlign:
-                        index === 4 ? "right" : index === 0 ? "center" : "left",
+                        (index === 4 || index === 2) ? "right" : index === 0 ? "center" : "left",
                     }}
                   >
                     {item.desc}
