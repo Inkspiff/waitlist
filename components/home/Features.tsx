@@ -8,20 +8,20 @@ import PaddedContainer from '@/components/layout/PaddedContainer'
 
 const LIST = [
     {
-        title: "Zero markdown knwoledge",
-        desc: "Don't know markdown? Got no time for that? Let our AI create well-structured, concise, and stylish readme files for your projects.",
-    },
-    // {
-    //     title: "Customization",
-    //     desc: "Tailor the content to suit your project's unique needs, tone, and style.",
-    // },
-    {
-        title: "Beautiful Templates",
-        desc: "Choose from a library of community managed elegant readme templates to make your project stand out.",
+        title: "120X FASTER",
+        desc: "Hours of boring work done in seconds. Create and edit code docs in a snap.",
     },
     {
-        title: "120X Faster",
-        desc: "Get your readme files ready in seconds, allowing you to focus on what truly matters – your code.",
+        title: "Automate It",
+        desc: "Focus on your code, we will be updating your docs in realtime.",
+    },
+    {
+        title: "Save Resources",
+        desc: "Don't spend money on code doc managment. Let us do the heavy lifting.",
+    },
+    {
+        title: "ZERO LEARNING",
+        desc: "No need to learn markdown or any other syntax. One click and you're done.",
     },
 
 ]
@@ -38,7 +38,7 @@ const Features = () => {
           textAlign: "center",
           mt: 4,
         }}>
-          Professional READMEs in seconds.
+          Automate code documentation with AI
         </Typography>
 
        

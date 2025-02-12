@@ -161,7 +161,7 @@ const Hero = () => {
               fontSize: {xs: "18px", sm: "22px"}
           }}>
           
-           Join the waitlist! Create code  documentation in seconds, collaborate with fellow developers, get your projects out there.
+           Join the waitlist! Automate and maintain code documentation collaboratively with AI, Do it in seconds, and get your projects out there.
           </Typography>
 
           {!added ? 
@@ -249,10 +249,7 @@ const Hero = () => {
             maxWidth: {sm: "450px"},
             mx: "auto"
         }} >
-            Are you tired of having to spend hours crafting docs for your code projects? <br />Do you wish there was a smarter, more efficient way to create <span style={{
-              fontWeight: "bold",
-              display: "inline",
-            }}>readme</span> files, collaborate and get your work out? <br />Look no further—Inkspiff is here to revolutionize your code documentation workflow.
+           Are you tired of having to spend hours crafting docs for your code projects? <br />Do you <b>wish there was a smarter way</b> to create code docs? Is your team <b>spending resources maintaing docs?</b> <br />Look no further—Inkspiff is here to revolutionize your code documentation workflow.
         </Typography>
       
        </Box>

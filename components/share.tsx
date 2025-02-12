@@ -28,7 +28,7 @@ const Share = ({mode="light", showText=true}: {mode?: "light"| "dark", showText?
             mb: 1,
             fontWeight: 300,
         }}>🥹 Pls. Help us get to others! 🤲</Typography>}
-        <TwitterShareButton url={"https://inkspiff.com\n\n"} title={"🚀 Exciting News! 🚀\n@Inkspiff's waitlist is out, the ultimate platform for creating code docs! ✨\n\n- Create, Edit, and Share with ease.\n- Seamlessly manage all your readmes.\n- Be the first to experience the future of open source documentation!\n\nJoin the waitlist now 👇\n"} 
+        <TwitterShareButton url={"https://inkspiff.com\n\n"} title={"🚀 Exciting News! 🚀\n@Inkspiff's waitlist is out, the ultimate platform for creating code docs! ✨\n\n- Create, Automate Maintain, and Share with ease.\n- Seamlessly manage all your code docs.\n- Be the first to experience the future of AI code documentation!\n\nJoin the waitlist now 👇\n"} 
         via={"pinqode"}
         hashtags={["inkspiff", "codedoc",]}
         related={["pinqode"]}

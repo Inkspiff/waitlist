@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Inkspill - Create README files is seconds</title>
+        <title>Inkspill - Automate Codebase Documentation with AI</title>
         {/* <link rel="icon" href="/dog.png" /> */}
       </Head>
       <Header />

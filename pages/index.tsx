@@ -46,7 +46,7 @@ export default function Home() {
                         fontWeight: 400,
 
                     }}>
-                        At Inkspiff, we believe that creating comprehensive readme files and maintaining code docs should be a breeze. That's why we&apos;re harnessing the powers of generative <span style={{
+                        At Inkspiff, we believe that creating comprehensive code documentation and maintaining it should be a breeze. That's why we&apos;re harnessing the powers of generative <span style={{
                           fontWeight: "bold",
                         }}>AI, Automation, UX, and Collaboration </span>features to simplify the process and make it more enjoyable.
                     </Typography>

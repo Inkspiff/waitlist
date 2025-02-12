@@ -33,7 +33,7 @@ const Hero = () => {
                 display: {xs: "auto", sm: "none"}
             }}>Docs</Box><Box component={"span"} sx={{
                 display: {xs: "none", sm: "inline"}
-            }}>Documentation</Box> from READMEs</Typography>
+            }}>Documentation</Box> 120x faster</Typography>
 
             <Grid container spacing={4}>
                 <Grid item xs={12} sm={6}>
@@ -76,7 +76,7 @@ const Hero = () => {
                    </Typography>
                    <br/>
                    <Typography variant="body1">
-                   Want to create readmes in seconds? me too. Want your readmes to look mad? I feel you. Need a one stop platform for managing all your readmes. <Box component="span"  sx={{
+                   Want to document any codebase in seconds? me too. Want your docs to look mad? I feel you. Need a one stop platform for managing all code docs with your team. <Box component="span"  sx={{
                         fontWeight: 600,
                         // textDecoration: "underline",
                    }}> Say no more</Box>.

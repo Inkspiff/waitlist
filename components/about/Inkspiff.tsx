@@ -48,9 +48,9 @@ const Inkspiff = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                    <Typography variant="body1">
-                   I'm just gonna, put it out there. Inkspiff aims to be the one stop platform for creating excellent code documentations with ease. ck of automation <Box component="span"  sx={{
+                   I'm just gonna, put it out there. Inkspiff aims to be the one stop platform for creating, and maintaining excellent code documentations with ease. Any codebase, any size, any team. <Box component="span"  sx={{
                         fontWeight: 600
-                   }}>READMEs are just the start.</Box>
+                   }}>This is just the start.</Box>
                    </Typography>
                    <Typography variant="body1">
                         

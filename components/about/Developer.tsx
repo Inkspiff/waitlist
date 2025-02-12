@@ -91,15 +91,15 @@ const Developer = () => {
                    </Typography>
                    <br />
                    <Typography variant="body1">
-                   Few weeks ago, I wanted to showcase some of my code projects and so, needed to create some awesome readme files. thought would be a breeze. <Box component="span"  sx={{
+                   Few months ago, I wanted to showcase some of my code projects and so, needed to create some awesome documentation. thought would be a breeze. <Box component="span"  sx={{
                         fontWeight: 600
                    }}>It was'nt</Box>.
                    </Typography>
                    <br/>
                    <Typography variant="body1">
-                   My bad markdown knowledge and ugly writing, found zero jouy in the <Box component="span"  sx={{
+                   My poor markdown knowledge and ugly writing, found zero joy in the <Box component="span"  sx={{
                         fontWeight: 600
-                   }}>lack of automation</Box>/standadization in the process. I had to juggle a dozen different tools to get really readmes. That's why we're here.
+                   }}>lack of automation/standadization</Box> in the process. I had to juggle over a dozen different tools to maintain my docs. That's why we're here.
                    </Typography>
                 </Box>
                    

@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -12,26 +12,24 @@ import Button from "@mui/material/Button";
 import Divider from "@mui/material/Divider";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "@/store";
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import ThemeToggler from "@/components/appearance/ThemeToggler"
-import Logo from "@/components/ui/Logo"
-import Navbar from "@/components/layout/Navbar"
-import NavDrawer from "@/components/layout/NavDrawer"
-import { ThemeContext } from '@/context/ThemeContext';
+import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
+import ThemeToggler from "@/components/appearance/ThemeToggler";
+import Logo from "@/components/ui/Logo";
+import Navbar from "@/components/layout/Navbar";
+import NavDrawer from "@/components/layout/NavDrawer";
+import { ThemeContext } from "@/context/ThemeContext";
 
 const HomeHeader = () => {
-  const { toggleTheme, theme} = useContext(ThemeContext);
+  const { toggleTheme, theme } = useContext(ThemeContext);
 
-  const {palette, } = theme
-  const {mode } = palette
-  
-
+  const { palette } = theme;
+  const { mode } = palette;
 
   return (
     <AppBar
       sx={{
         border: "none",
-        bgcolor: "transparent"
+        bgcolor: "transparent",
       }}
       elevation={0}
       variant="outlined"
@@ -41,45 +39,47 @@ const HomeHeader = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          width: '100%',
-          bgcolor: mode === 'light' ? 'rgba(255, 255, 255, 0.9)' : 'rgba(18, 18, 18, 0.9)',
-          backdropFilter: 'saturate(180%) blur(20px)',
-          
+          width: "100%",
+          bgcolor:
+            mode === "light"
+              ? "rgba(255, 255, 255, 0.9)"
+              : "rgba(18, 18, 18, 0.9)",
+          backdropFilter: "saturate(180%) blur(20px)",
         }}
       >
-        <Box sx={{
+        <Box
+          sx={{
             display: "flex",
             alignItems: "center",
             justifyContent: "space-between",
-        }}>
+          }}
+        >
           <Link href={"/"}>
-          <Logo type="both" size={30} sx={{
-            mr: 1,
-            cursor: "pointer"
-          }} />
+            <Logo
+              type="both"
+              size={30}
+              sx={{
+                mr: 1,
+                cursor: "pointer",
+              }}
+            />
           </Link>
-          
 
-         <Navbar />
-
-        
+          <Navbar />
         </Box>
 
         <Box>
-        
-
           <ThemeToggler />
           <NavDrawer />
         </Box>
-        
       </Toolbar>
-      <Divider sx={{
-        mx: 2
-      }} />
-      
-      
+      <Divider
+        sx={{
+          mx: 2,
+        }}
+      />
     </AppBar>
-  )
-}
+  );
+};
 
-export default HomeHeader
+export default HomeHeader;
