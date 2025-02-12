@@ -52,7 +52,7 @@ const Features = () => {
             // border: 1
           }}>
             {LIST.map((item, index) => {
-                return <Grid key={index} item xs={(index === 2) || (index === 3) ? 12 : 6}>
+                return <Grid key={index} item xs={(index === 1) || (index === 2) ? 6 : 12}>
                 <Paper elevation={0} sx={{
                     borderRadius: 2,
                     bgcolor: 'action.hover',
