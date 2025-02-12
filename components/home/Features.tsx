@@ -16,7 +16,7 @@ const LIST = [
         desc: "Focus on your code, we will be updating your docs in realtime.",
     },
     {
-        title: "Save Resources",
+        title: "SAVE RESOURCES",
         desc: "Don't spend money on code doc managment. Let us do the heavy lifting.",
     },
     {
