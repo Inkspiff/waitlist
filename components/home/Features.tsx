@@ -12,7 +12,7 @@ const LIST = [
         desc: "Hours of boring work done in seconds. Create and edit code docs in a snap.",
     },
     {
-        title: "Automate It",
+        title: "AUTOMATE EVERYTHING",
         desc: "Focus on your code, we will be updating your docs in realtime.",
     },
     {
@@ -23,6 +23,11 @@ const LIST = [
         title: "ZERO LEARNING",
         desc: "No need to learn markdown or any other syntax. One click and you're done.",
     },
+    {
+        title: "DEDICATED DOCSPACE",
+        desc: "A platform for all your code docs from all your projects. One place, all your docs.",
+    },
+    
 
 ]
 
@@ -47,7 +52,7 @@ const Features = () => {
             // border: 1
           }}>
             {LIST.map((item, index) => {
-                return <Grid key={index} item xs={index === 0 ? 12 : 6}>
+                return <Grid key={index} item xs={(index === 2) || (index === 3) ? 12 : 6}>
                 <Paper elevation={0} sx={{
                     borderRadius: 2,
                     bgcolor: 'action.hover',
